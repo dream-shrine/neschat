@@ -1,0 +1,17 @@
+[package]
+name = "neschat"
+version = "0.1.0"
+edition = "2021"
+description = "A little huge social web"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+druid = "0.7"
+wood = "0.7"
+base64 = "0.13"
+bimap = "0.6.2"
+smallvec = "1.8"
+chrono = "0.4.19"
+priority-queue = "1.2.2"
+blake3 = "1.3.1"
